@@ -59,8 +59,35 @@ devdoc-agent/
  ├── logs/              # run logs (JSONL)
  └── artifacts/         # generated docs
 ```
+### Stack
+```
+[CLI UX]
+  ├─ prompt_toolkit
+  ├─ rich
+  └─ InquirerPy
+
+[Core Agent]
+  ├─ factchat (LLM)
+  ├─ requests / httpx
+  └─ pydantic
+
+[Execution]
+  ├─ subprocess
+  └─ sandbox rules
+
+[RAG]
+  ├─ simple loader (초기)
+  ├─ (옵션) FAISS / Chroma
+  └─ 문서 파일들
+
+[Infra]
+  ├─ dotenv
+  ├─ yaml
+  └─ logging(JSONL)
  
+```
 ### Installation
+
 ```
 git clone https://github.com/yourname/devdoc-agent.git
 cd devdoc-agent
