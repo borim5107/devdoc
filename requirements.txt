@@ -1,0 +1,14 @@
+prompt_toolkit
+rich
+InquirerPy
+
+requests
+python-dotenv
+
+pydantic
+pyyaml
+
+pytest
+
+# faiss-cpu
+# chromadb
