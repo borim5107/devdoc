@@ -86,6 +86,30 @@ devdoc-agent/
   └─ logging(JSONL)
  
 ```
+### Dependencies 
+- Core
+   - Python 3.10+
+- AI / LLM
+   - FactChat API
+- CLI Interface
+   - prompt_toolkit
+   - rich
+   - InquirerPy
+- Execution
+   - subprocess (Python standard library)
+- Retrieval (RAG)
+   - File-based retrieval (MVP)
+   (Optional)
+   - FAISS
+   - Chroma
+- Config & Data
+   - pydantic
+   - pyyaml
+   - python-dotenv
+     
+- Testing
+   - pytest
+
 ### Installation
 
 ```
